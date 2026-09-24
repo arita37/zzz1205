@@ -1,0 +1,217 @@
+name: check
+
+on:
+  schedule:
+    - cron: "*/1 * * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_smartglass &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
+
+  sync2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_smartglass &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
+
+
+
+  sync3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_smartglass &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
+
+
+
+
+  sync4:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_smartglass &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
+
+
+
+
+  sync5:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
+
+
+
+  sync6:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
+
+
+
+  sync7:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_smartglass &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
+
+
+
+
+  sync8:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_smartglass &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
+
+
+
+
+
+  sync12:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
+
+
+  sync13:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_smartglass &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
+
+
+
+
+  sync14:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_smartglass &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
+
+
+
+
+  sync15:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
+
+
+
+  sync16:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_smartglass &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
+
+
+
+
+  sync17:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
+
+
+
+  sync18:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Android SDK
+        run: |
+          git clone https://github.com/v-modal/vmodal_sdk_android.git &
+          git clone https://github.com/v-modal/vmodal_sdk_flutter.git &
+          git clone https://github.com/v-modal/vmodal_sdk_robotics.git  &
+          git clone https://github.com/v-modal/vmodal_sdk_smartglass &
+          git clone https://github.com/v-modal/vmodal_sdk_swift_iphoneduo.git 
+          python -m pip install vmodal
